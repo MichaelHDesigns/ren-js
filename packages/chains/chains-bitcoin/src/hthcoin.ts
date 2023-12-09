@@ -71,9 +71,9 @@ export class HthClass extends BitcoinClass {
         ): string | undefined => {
             switch (Dogecoin.utils.resolveChainNetwork(network)) {
                 case "mainnet":
-                    return `https://bitblocks.cc/tx/XBB/${txHash}/`;
+                    return `https://insight.hth.world/insight-api/tx/HTH/${txHash}/`;
                 case "testnet":
-                    return `https://bitblocks.cc/tx/XBB/${txHash}/`;
+                    return `https://insight.hth.world/insight-api/tx/HTH/${txHash}/`;
                 case "regtest":
                     return undefined;
             }
@@ -91,9 +91,9 @@ export class HthClass extends BitcoinClass {
 
             switch (HthCoin.utils.resolveChainNetwork(network)) {
                 case "mainnet":
-                    return `https://bitblocks.cc/tx/XBB/${txHash}/`;
+                    return `https://insight.hth.world/insight-api/tx/HTH/${txHash}/`;
                 case "testnet":
-                    return `https://bitblocks.cc/tx/XBB/${txHash}/`;
+                    return `https://insight.hth.world/insight-api/tx/HTH/${txHash}/`;
                 case "regtest":
                     return undefined;
             }
